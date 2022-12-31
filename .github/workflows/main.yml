@@ -11,6 +11,13 @@ jobs:
   runs-on: ubuntu-latest
 
   steps: 
-   - name: 'testingg'
+   - name: 'testingg' 
      run: ls
 
+
+
+
+
+   - uses: actions/checkout@3
+   - name: 'testingg' 
+     run: ls
