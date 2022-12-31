@@ -23,7 +23,7 @@ jobs:
 
 
    - name: "build docker image"
-     run: docker build -t ${{ secrets.username }}/myimage
+     run: docker build -t ${{ secrets.username }}/myimage .
 
 
 
