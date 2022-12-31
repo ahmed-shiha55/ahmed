@@ -1,1 +1,19 @@
+on:
+  push:
+   branches:
+    - master
 
+
+
+
+jobs:
+ build:
+  runs-on: ubuntu-latest
+
+  steps:
+   - name: 'testing'
+     run: pwds
+
+
+     - name: 'testing pp'
+     run: echo Ahmed
