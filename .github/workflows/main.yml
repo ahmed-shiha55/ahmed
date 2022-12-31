@@ -23,10 +23,10 @@ jobs:
 
 
    - name: "build docker image"
-     run: docker build -t ${{ secrets.username }}/image
+     run: docker build -t ${{ secrets.username }}/myimage
 
 
 
    - name: "push docker image"
-     run: docker push ${{ secrets.username }}/image
+     run: docker push ${{ secrets.username }}/myimage
  
