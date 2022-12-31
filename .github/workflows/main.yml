@@ -10,9 +10,9 @@ jobs:
  build:
   runs-on: ubuntu-latest
 
-  steps:
+  steps: 
    - name: 'testing'
-     run: pwds
+     run: pwd
 
 
      - name: 'testing pp'
