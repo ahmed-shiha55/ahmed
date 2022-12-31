@@ -11,9 +11,6 @@ jobs:
   runs-on: ubuntu-latest
 
   steps: 
-   - name: 'testing'
-     run: pwd
+   - name: 'testingg'
+     run: ls
 
-
-   - name: 'testing pp'
-     run: echo Ahmed
